@@ -1,0 +1,94 @@
+HTML:
+-> <html lang="pt-pt"> - Define a linguagem do site em HTML (Neste caso, Português).
+-> 
+
+CSS:
+-> 
+
+JS:
+-> window.alert('Mensagem Alerta!'); - Apresenta uma mensagem (que está entre ' ') antes de carregar o conteúdo do site.
+-> window.confirm('Confirmação?'); - Apresenta uma confirmação, antes de carregar o conteúdo do site.
+-> window.prompt('Pergunta?'); - Apresenta uma pergunta (que não é necessário responder), antes de carregar o conteúdo do site.
+-> //texto ou /*texto*/ - Comentários (Nenhum destes texto irão afetar o código).
+-> ('... '+ variável +' ...') - Concatenação.
+-> `... ${variável} ...` - Concatenação por Template String.
+-> Number.parseInt(var_numero) - Converte para Number do tipo Inteiro.
+-> Number.parseFloat(var_numero) - Converte para Number do tipo Real.
+-> Number(var_numero) - Converte para Number dos dois tipos.
+-> String(variável) - Converte para String.
+-> variável.length - Indica quantos caractéres a String da variável possuí.
+-> variável.toUpperCase() - Transforma todos os caractéres da String em MAIÚSCULAS.
+-> variável.toLowerCase() - Transforma todos os caractéres da String em minúsculas.
+-> variável.toFixed(número_de_casas_decimais) - Mostra o número com a quantidade de casas decimais definidas.
+-> variável.toFixed(número_de_casas_decimais).replace('.', ',') - Mostra o número com a quantidade de casas decimais definidas e troca o ponto pela vírgula.
+-> variável.toLocaleString('pt-PT', {style: 'currency', currency: 'EUR'}) - Mostra o valor da variável em euros. 
+
+Criar uma variável:
+-> var variável = ... - Cria/Muda uma variável com o nome e valor definidos.
+-> typeof variável - Identifica o tipo de uma variável
+-> Podem começar com letra, $ ou _
+-> Não podem começar com Números.
+-> É possível combinar letras com números.
+-> É possivel utilizar acentos e/ou símbolos.
+-> Não podem conter espaços.
+-> Não podem ser palavra reservadas.
+-> É Case Sensitive. (Maiúsculas e minúsculas fazem toda a diferença)
+-> Recomendado: Escolhe nomes coerentes relacionados às variáveis.
+
+Tipos de Variáveis:
+-> number: 12; 18; 0.5; -15.9; etc.
+|---------------> Infinity
+|---------------> NaN (Not a Number)
+-> string: "Google", "Javascript", "Nuno".
+-> boolean: true, false.
+-> null
+-> undefined
+-> object
+|---------------> Array
+-> function
+
+Operadores:
+-> Aritméticos: 
+|------------> + : Adição
+|------------> - : Subtração
+|------------> * : Multiplicação 
+|------------> / : Divisão
+|------------> % : Resto da divisão
+|------------> ** : Potência 
+|------------> Ordens de precedência:
+		|-------> () > ** > * , / e % > + e - (Nota: Caso apareçam dois ou mais operadores com a mesma ordem de precedência, temos que calcular primeiro o que estiver mais perto da margem da esquerda.)
+
+-> Atribuição:
+|------------> = : Recebe
+|------------> Auto-atribuições:
+|		|-------> n += 4: Adiciona 4 ao valor de n
+|		|-------> n -= 4: Retira 4 do valor de n
+|		|-------> n *= 4: Multiplica o valor de n com 4
+|		|-------> n /= 4: Divide o valor de n com 4
+|		|-------> n **= 4: Faz uma potência de n com expoente 4
+|		|-------> n %= 4: Obtem o resto da divisão de n com 4
+|------------> Incremento:
+		|-------> ++n (Pré-incremento) ou n++ (Pós-incremento): Aumenta o 			valor de n por 1
+		|-------> --n (Pré-decremento) ou n-- (Pós-decremento): Diminui o 			valor de n por 1
+-> Relacionais
+|------------> > : Maior que...
+|------------> < : Menor que...
+|------------> >= : Maior ou igual a...
+|------------> <= : Menor ou igual a...
+|------------> == : Igual a... (Só os valores das duas variáveis é que têm que ser iguais)
+|------------> != : Diferente de...
+|------------> Operadores de Identidade:
+		|-------> === : Idêntico a... (Tudo das duas variáveis tem que ser			igual)
+		|-------> !==: Diferente (Restrito) a... (Só os tipos de variáveis das 		duas variáveis têm que ser diferente)
+
+-> Lógicos:
+|------------> ! : Negação (Nega o incidente ser true e vice-versa)
+|------------> && : Conjunção (Ambos os incidentes têm que ser true)
+|------------> || : Disjunção (Apenas um dos incidentes tem que ser true)
+
+-> Ordem de Precedência:
+|------------> Operadores Aritméticos > Operadores Relacionais > ! > && > ||
+
+-> Ternário:
+|------------> teste ? true : false - Devolve a mensagem que estiver definida como true, se o teste for verdade, senão, devolve a mensagem que estiver definida como false.
+|------------> Ex.: média >= 10 ? "Aprovado" : "Reprovado"

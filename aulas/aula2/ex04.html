@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Primeiro Programa com JS</title>
+        <style>
+            body{
+                font: normal 20pt Arial
+            }
+        </style>
+    </head>
+    <body>
+        
+        <script>
+            var nome = window.prompt('Como te chamas?');
+            document.write(`Olá, <b><u><font color = red>${nome}</font></u></b>! O teu nome tem <b><u><font color = red>${nome.length}</font></u></b> caractéres.<br/>`);
+            document.write(`O teu nome em maiúsculas é <b><u><font color = red>${nome.toUpperCase()}</font></u></b>.<br/>`);
+            document.write(`O teu nome em minúsculas é <b><u><font color = red>${nome.toLowerCase()}</font></u></b>.<br/>`);
+        </script>
+    </body>
+</html>
