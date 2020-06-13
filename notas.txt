@@ -6,10 +6,10 @@ CSS:
 -> 
 
 JS:
--> window.alert('Mensagem Alerta!'); - Apresenta uma mensagem (que está entre ' ') antes de carregar o conteúdo do site.
--> window.confirm('Confirmação?'); - Apresenta uma confirmação, antes de carregar o conteúdo do site.
+-> window.alert('Mensagem Alerta!'); - Apresenta uma mensagem (que está entre ' ').
+-> window.confirm('Confirmação?'); - Apresenta uma confirmação.
 -> window.prompt('Pergunta?'); - Apresenta uma pergunta (que não é necessário responder), antes de carregar o conteúdo do site.
--> //texto ou /*texto*/ - Comentários (Nenhum destes texto irão afetar o código).
+-> //texto ou /*texto*/ - Comentários (Nenhum destes texto irá afetar o código).
 -> ('... '+ variável +' ...') - Concatenação.
 -> `... ${variável} ...` - Concatenação por Template String.
 -> Number.parseInt(var_numero) - Converte para Number do tipo Inteiro.
@@ -21,7 +21,7 @@ JS:
 -> variável.toLowerCase() - Transforma todos os caractéres da String em minúsculas.
 -> variável.toFixed(número_de_casas_decimais) - Mostra o número com a quantidade de casas decimais definidas.
 -> variável.toFixed(número_de_casas_decimais).replace('.', ',') - Mostra o número com a quantidade de casas decimais definidas e troca o ponto pela vírgula.
--> variável.toLocaleString('pt-PT', {style: 'currency', currency: 'EUR'}) - Mostra o valor da variável em euros. 
+-> variável.toLocaleString('pt-PT', {style: 'currency', currency: 'EUR'}) - Mostra o valor da variável em euros.
 
 Criar uma variável:
 -> var variável = ... - Cria/Muda uma variável com o nome e valor definidos.
@@ -92,3 +92,23 @@ Operadores:
 -> Ternário:
 |------------> teste ? true : false - Devolve a mensagem que estiver definida como true, se o teste for verdade, senão, devolve a mensagem que estiver definida como false.
 |------------> Ex.: média >= 10 ? "Aprovado" : "Reprovado"
+
+-------------------------------------------------Parte 2--------------------------------------------------------------
+JS:
+Estrutura de decisão:
+
+-> if(condição){/*codigo*/} - Executa uma tarefa ou série de tarefas, se a condição for verdadeira, senão, ignora esta parte do código.
+
+-> if(condição){/*codigo*/} else{/*codigo*/} - Executa uma tarefa ou série de tarefas, se a condição for verdadeira, senão, executa a outra parte do código.
+
+-> if(condição){/*codigo*/} else if(condição){/*codigo*/} else{/*codigo*/} - Mesmo caso que o anterior, só que com mais outras condições e mais código.
+
+-> switch(variável){ case valor_variável_01: /*código*/ break; case valor_variável_02: /*código*/ break; ... Default: /*código*/ break;} - Mesmo caso que o anterior, só que devolve o código de um valor de uma variável, se este for introduzido e existir, senão devolve o código do 'default'. É necessário por 'break', antes de fechar um 'case' e o 'default'.
+
+Estrutura de Repetição:
+
+-> for(condicaoInicial; condicaoFinal; acaoExecutar){ /*codigo*/ }
+
+-> while(condicao){ /*codigo*/ }
+
+-> do{ /*codigo*/ } while(condicao)

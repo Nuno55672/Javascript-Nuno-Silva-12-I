@@ -1,1 +1,6 @@
-https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1
+Curso em Vídeo - https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1
+
+Estrutura de decisão - http://blog.portalrmfactory.com.br/estrutura-de-decisao-em-javascript/
+
+Estrutura de escolha múltipla - https://dicasdeprogramacao.com.br/estrutura-de-selecao-multipla-escolha-caso/
+

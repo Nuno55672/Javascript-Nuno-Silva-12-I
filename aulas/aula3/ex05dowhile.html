@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Primeiro Programa com JS</title>
+        <style>
+            body{
+                font: normal 20pt Arial
+            }
+        </style>
+    </head>
+    <body>
+        
+        <script>
+            var n1 = Number(window.prompt('Introduz um número!'));
+            var n2 = Number(window.prompt('Introduz outro número!'));
+            var limite = Number(window.prompt('Introduz o limite!'));
+            var soma = n1 + n2
+            document.write(`Valor1: ${n1}<br/>`);
+            document.write(`Valor2: ${n2}<p>`);
+            do{
+                document.write(`Soma: ${soma++}<br/>`);        
+            }while(soma <= limite);
+            if(soma > limite){
+                document.write(`<br/>O ciclo terminou.`);
+            }
+        </script>
+    </body>
+</html>
