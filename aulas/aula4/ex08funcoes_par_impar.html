@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Par ou Impar, por funções</title>
+        <style>
+            body{
+                font: normal 15pt Arial;
+            }
+            div#res{
+                margin-top: 20px;
+                font: normal 15pt Arial;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Par ou Impar</h1>
+        Introduz um número:
+        <input type="number" name="txt_n1" id="txt_n1"><p/>
+        <input type="button" value="Submeter" name="btn_sub" id="btn_sub" onclick="parimp(txt_n1)">
+        <div id="res">Resultado</div>
+        <script>
+            var num = window.document.getElementById('txt_n1');
+            var r = window.document.getElementById('res');
+            var n = Number(num.value);
+            var res = parimp(n);
+            addEventListener('click',parimp(n));
+            function parimp(n){
+                if(n%2 == 0){
+                    return 'par';
+                }
+                else{
+                    return 'impar';
+                }
+            }
+            r.innerHTML = `O valor de <b>${n}</b> é <b>${res}</b>.`;
+        </script>
+    </body>
+</html>

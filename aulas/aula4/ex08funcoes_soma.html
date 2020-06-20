@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Soma, por funções</title>
+        <style>
+            body{
+                font: normal 15pt Arial;
+            }
+            div#res{
+                margin-top: 20px;
+                font: normal 15pt Arial;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Soma, com Funções</h1>
+        Valor 1:
+        <input type="number" name="txt_n1" id="txt_n1"><p/>
+        Valor 2:
+        <input type="number" name="txt_n2" id="txt_n2"><p/>
+        <input type="button" value="Submeter" name="btn_sub" id="btn_sub" onclick="soma(n1,n2)">
+        <div id="res">Resultado</div>
+        <script>
+            var num1 = window.document.getElementById(txt_n1);
+            var num2 = window.document.getElementById(txt_n2);
+            var s = window.document.getElementById(res);
+            var n1 = Number(num1.value);
+            var n2 = Number(num2.value);
+            function soma(n1,n2){
+                var soma = n1 + n2;
+                return soma;
+            }
+            s.innerText = `${soma(n1,n2)}`;
+        </script>
+    </body>
+</html>

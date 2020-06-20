@@ -112,3 +112,80 @@ Estrutura de Repetição:
 -> while(condicao){ /*codigo*/ }
 
 -> do{ /*codigo*/ } while(condicao)
+
+-------------------------------------------------Parte 3--------------------------------------------------------------
+HTML:
+Eventos DOM:
+-> mouseenter - quando o cursor está em cima do objeto
+-> mousemove - quando o cursor está se a mover dentro do objeto
+-> mousedown - quando o cursor clicar e segurar no objeto
+-> mouseup - quando o cursor soltar o objeto
+-> click - quando o cursor clicar e soltar o objeto
+-> mouseout - quando o cursor sair de cima do objeto
+
+-> <div ... onclick="clicar()">...</div> - ativa um evento quando a área do div for clicada
+-> <div ... onmouseenter="entrar()">...</div> - ativa um evento quando o cursor passar por cima da área do div
+
+JS:
+DOM:
+
+Selecionar por Marca:
+-> getElementsByTagName('p') - Seleciona tudo que estiver dentro do tipo de tag correspondente
+-> getElementsByTagName('p')[0] - Seleciona tudo que estiver dentro do tipo do respetivo parágrafo da tag correspondente (sendo 0 o primeiro parágrafo).
+
+Selecionar por ID:
+-> getElementById() - Seleciona tudo que estiver com o ID correspondente.
+
+Selecionar por Name:
+-> getElementsByName() - Seleciona tudo que estiver com o Name correspondente.
+
+Selecionar por Class:
+-> getElementsByClassName() - Seleciona tudo que estiver com a Class correspondente.
+
+Selecionar por Seletor:
+por id - #
+por class - .
+-> querySelector(...#...) - Seleciona tudo o que estiver dentro de uma tag com ID correspondentes
+-> querySelector(div.abc) - Seleciona tudo o que estiver dentro de uma tag com Class correspondentes
+
+Eventos DOM:
+-> mouseenter - quando o cursor está em cima do objeto
+-> mousemove - quando o cursor está se a mover dentro do objeto
+-> mousedown - quando o cursor clicar e segurar no objeto
+-> mouseup - quando o cursor soltar o objeto
+-> click - quando o cursor clicar e soltar o objeto
+-> mouseout - quando o cursor sair de cima do objeto
+
+Vetores:
+
+Array->Elemento->Chave de Indíce (de 0 a x)->Conteúdo
+
+var num = [5,8,3] - Cria uma variável 'num', que contem um vetor de x elementos (dentro dos parentesis retos, separadados por vírgulas).
+
+-> num[3] = 6 - Acrescenta um valor ao vetor, no elemento indicado, quer este exista, quer não.
+
+-> num.push(3) - Acrescenta um valor ao próximo elemento, da ordem atual.
+
+-> num.length - Determina o comprimento do array.
+
+-> num.sort() - Ordena todos os valores do array em ordem crescente.
+
+->num.indexOf(3) - Procura e apresenta a chave de índice do valor indicado, caso este exista, senão, devolve -1.
+
+Apresentar os valores de um array, de forma eficaz:
+var vals = [5,3,4,6,9]
+for(var pos=0; pos<vals.length; pos++){
+document.write(`... ${pos} ... ${vals[pos]}`)
+}
+ou
+for (var pos in vals){
+document.write(`... ${pos} ... ${vals[pos]}`)
+}
+
+Funções:
+
+-> Chamada > Parâmetro(s) > Ação > Retorno
+
+-> function nome_funcao (var_01, var_02){ ... return valor}
+
+-> nome_funcao(5) -> Define o valor do parâmetro e devolve um resultado.

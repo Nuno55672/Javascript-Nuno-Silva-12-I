@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Soma de números, usando DOM</title>
+        <style>
+            body{
+                font: normal 15pt Arial;
+            }
+            div#res{
+                font: normal 15pt Arial;
+                background: red;
+                color: white;
+                width: 450px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Soma de valores</h1>
+        Valor 1:
+        <input type="number" name="txt_n1" id="txt_n1" min="1" max="999"><br/>
+        Valor 2:
+        <input type="number" name="txt_n2" id="txt_n2" min="1" max="999"><p/>
+        <input type="button" value="Somar" name="btn_soma" id="btn_soma" onclick="somar()"><p/>
+        <div id="res">Resultado</div>
+        <script>
+            function somar(){
+                var tn1 = window.document.getElementById('txt_n1');
+                var tn2 = window.document.getElementById('txt_n2');
+                var res = window.document.getElementById('res');
+                var n1 = Number(tn1.value);
+                var n2 = Number(tn2.value);
+                var s = n1 + n2;
+                res.innerHTML = `O resutado da soma entre <b>${n1}</b> e <b>${n2}</b> é <b>${s}</b>`;
+            }
+        </script>
+    </body>
+</html>

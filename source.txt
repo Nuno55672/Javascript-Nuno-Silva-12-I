@@ -4,3 +4,4 @@ Estrutura de decisão - http://blog.portalrmfactory.com.br/estrutura-de-decisao-
 
 Estrutura de escolha múltipla - https://dicasdeprogramacao.com.br/estrutura-de-selecao-multipla-escolha-caso/
 
+Referência de eventos - https://developer.mozilla.org/pt-PT/docs/Web/Eventos
