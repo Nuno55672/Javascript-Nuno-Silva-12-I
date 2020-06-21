@@ -16,14 +16,14 @@
         <h1>Par ou Impar</h1>
         Introduz um número:
         <input type="number" name="txt_n1" id="txt_n1"><p/>
-        <input type="button" value="Submeter" name="btn_sub" id="btn_sub" onclick="parimp(txt_n1)">
+        <input type="button" value="Submeter" name="btn_sub" id="btn_sub">
         <div id="res">Resultado</div>
         <script>
+            addEventListener('click',parimp);
             var num = window.document.getElementById('txt_n1');
             var r = window.document.getElementById('res');
             var n = Number(num.value);
             var res = parimp(n);
-            addEventListener('click',parimp(n));
             function parimp(n){
                 if(n%2 == 0){
                     return 'par';

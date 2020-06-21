@@ -11,20 +11,18 @@
     <body>
         <h1>Exemplo com vetores</h1>
         <div id="res">Resultado</div><br>
-        <div id="ordem">Ordem Crescente</div>
         <script>
             var num = Number([window.prompt('Valor 1'), window.prompt('Valor 2'), window.prompt('Valor 3')]);
             for(var i = 0; i < num.legth; i++){
                 document.write(`Posição ${i}: Valor ${num[i]}<br/>`);
             }
+            num.sort();
             var res = window.document.getElementById('res');
-            var ord = window.document.getElementById('ordem');
-            var ordem = num.sort();
+            var soma = 0
             for(var i = 0; i < num.legth; i++){
-                var soma = soma + num[i];
+                soma = soma + num[i];
             }
             res.innerHTML = `${soma}`;
-            ord.innerHTML = `${ordem}`;
         </script>
     </body>
 </html>

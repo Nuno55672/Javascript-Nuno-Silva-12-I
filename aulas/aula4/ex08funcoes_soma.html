@@ -18,9 +18,10 @@
         <input type="number" name="txt_n1" id="txt_n1"><p/>
         Valor 2:
         <input type="number" name="txt_n2" id="txt_n2"><p/>
-        <input type="button" value="Submeter" name="btn_sub" id="btn_sub" onclick="soma(n1,n2)">
+        <input type="button" value="Submeter" name="btn_sub" id="btn_sub">
         <div id="res">Resultado</div>
         <script>
+            addEventListener('click',soma(n1,n2));
             var num1 = window.document.getElementById(txt_n1);
             var num2 = window.document.getElementById(txt_n2);
             var s = window.document.getElementById(res);

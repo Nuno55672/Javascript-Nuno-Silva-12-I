@@ -127,7 +127,7 @@ Eventos DOM:
 -> <div ... onmouseenter="entrar()">...</div> - ativa um evento quando o cursor passar por cima da área do div
 
 JS:
-DOM:
+DOM (Document Object Model):
 
 Selecionar por Marca:
 -> getElementsByTagName('p') - Seleciona tudo que estiver dentro do tipo de tag correspondente
