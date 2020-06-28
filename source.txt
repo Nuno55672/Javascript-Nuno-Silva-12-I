@@ -5,3 +5,5 @@ Estrutura de decisão - http://blog.portalrmfactory.com.br/estrutura-de-decisao-
 Estrutura de escolha múltipla - https://dicasdeprogramacao.com.br/estrutura-de-selecao-multipla-escolha-caso/
 
 Referência de eventos - https://developer.mozilla.org/pt-PT/docs/Web/Eventos
+
+Bibliotecas JS - https://king.host/blog/2016/06/13-bibliotecas-javascript-que-facilitam-o-desenvolvimento-web/

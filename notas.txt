@@ -189,3 +189,34 @@ Funções:
 -> function nome_funcao (var_01, var_02){ ... return valor}
 
 -> nome_funcao(5) -> Define o valor do parâmetro e devolve um resultado.
+
+-------------------------------------------------Parte 4--------------------------------------------------------------
+
+Bibliotecas:
+
+JS: 
+-> D3.js -> Serve para visualização de dados. Esta manipula documentos, baseados no seu conteúdo e apresenta os dados em formato de visualizações dinâmicas e interativas com HTML, SVG E CSS. Ex.: É possível criar tabelas em HTML ou gráficos em SVG.
+
+-> Drop.js -> Ajuda a criar dropdowns elegantes quando estiver a ser interagido, por exemplos, com animações suaves e designs simples.
+
+-> React -> Esta biblioteca facilita a construção de interfaces de utilizador (UI). Disponibiliza modelos de programação mais simples e com melhor desempenho. Possivelmente integrado com servidores do Node.JS
+
+-> EaselJS -> Esta biblioteca facilita o trabalho com o elemento canva do HTML5. É útil para criação de experiências gráficas e adicionar elementos lúdicos ao site (sendo também possível criar jogos).
+
+-> Marionette.js -> É uma biblioteca ideal para desenvolvedores Backbone. Simplifica o código de apicações, obtendo, como resultado, views robustas e soluções de arquitetura. Ajuda a compor layouts ricos com componentes leves, com interações complexas de UI e mais.
+
+-> Sticker.js -> Permite criar um efeito autocolante sobre um elemento do site. Utilizadores podem 'descolar' uma imagem para fora da página, passando o cursor sobre ela.
+
+-> Vivus -> Ajuda a trazer SVGs 'à vida', dando a impressão de serem desenhados. É uma classe autónoma e sem dependências que suporta vários tipos de animação e opções de timing, assim como a opção do utilizador criar o seu próprio script em JS.
+
+-> OhSnap!.js -> É uma biblioteca de notificações para jQuery e Zepto. É projetada para funcionar bem, tanto em PCs como também em navegadores mobile. É fácil integrar esta solução num site já existente, para customizá-lo, basta só editar um único ficheiro CSS.
+
+-> SpaceBase -> É um framework baseado em Sass, que combina as melhores práticas responsivas num projeto boilerplate pronto. Vem com vários recursos, como, um grid amigável para dispositivos móveis, componentes comuns de UI, como, botões, listas e mais.
+
+-> Picturefill -> É útil para entregar a melhor imagem para cada utilizador com base nas condições de acesso, como, tamanho do ecrã, navegador, resolução, etc. Existem 2 versões disponíveis para download: uma em desenvolvimento com código unminified e uma versão de produção que funciona com código minified.
+
+-> PurifyCSS -> Purify é um utilitário simples que dispensa o uso de CSS. Este tem a capacidade de detetar CSS carregado dinamicamente no JS.
+
+-> Redux -> Este recurso poderoso e prático funciona como um container em estado previsível para aplicações JS. Ajuda a escrever códigos que se comportam de forma consistente quando em produção. Pode ser executado em diferentes ambientes e é de fácil implementação de teste.
+
+-> Lodash.js -> Facilita o JS ao assumir o incómodo de trabalhar com matrizes, números, objetcs, strings, etc. É ótimo para: interação de arrays, objects e strings; manipulação e teste de valores e criação de funções compostas. 
