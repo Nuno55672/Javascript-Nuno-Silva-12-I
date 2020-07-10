@@ -14,10 +14,12 @@ $(function(){
         var bgC = $("#casa"+c).css("background-image");
         //Indica o respetivo vencedor
         if( (bgA == bgB) && (bgB == bgC) && (bgA != "none" && bgA != "")){
-            if(bgA.indexOf("1.jpg") >= 0)
-                vencedor = "1";
-            else
-                vencedor = "2";
+            if(bgA.indexOf("1.jpg") >= 0){
+                vencedor = "1";   
+            }
+            else{
+                vencedor = "2";   
+            }
             return true;
         }
         //Não devolve resultado nenhum, sendo um empate
